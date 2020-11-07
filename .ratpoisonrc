@@ -1,0 +1,20 @@
+escape Super_L
+
+[bash]
+set border 0
+set padding 0 0 0 0
+set barpadding 0 0
+[/bash]
+
+# you probably do not need this
+exec xrandr --output DP-1 --left-of HDMI-1
+
+exec picom
+
+exec numlockx
+
+# you probably do not need this as well
+bind o exec setxkbmap us
+bind O exec setxkbmap sk
+
+bind p exec dmenu_run
